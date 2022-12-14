@@ -1,0 +1,153 @@
+body {
+    /* background-image: url("../joshua-tree.jpeg"); */
+}
+.box {
+    padding: 15px;
+    margin: top 0px;
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(to right, rgb(116, 116, 128), rgb(239, 242, 254));
+    /* background-image: linear-gradient(to right, rgb(91, 139, 244), rgb(239, 242, 254)); */
+}
+
+/* .wrapper{
+    background-image: url("../joshua-tree.jpeg");
+
+} */
+
+.box-1 {
+    display: flex;
+}
+
+.box-1 h2 {
+    flex: 0 0 20%;
+}
+
+/* .box-1 p {
+    flex: 0 0 80%;
+} */
+
+.box-2 {
+    display: flex;
+}
+
+.box-2 h2 {
+    flex: 0 0 20%;
+}
+
+.box-2 section a img {
+    width: 100%;
+}
+
+.second-row, .third-row {
+    display: flex;
+}
+
+.first-row,.second-row a, .third-row a {
+position: relative;
+}
+
+.first-row h2,.second-row a p, .third-row a p {
+    position: absolute;
+    bottom: 5%;
+    background-color: antiquewhite;
+}
+/* .box-2 { 
+    padding: 15px;
+    margin: top 0px;
+    width: 100vw;
+    height: 500px;
+    background-image: linear-gradient(to right, rgb(116, 116, 128), rgb(239, 242, 254));
+    /* background-image: linear-gradient(to right, rgb(91, 139, 244), rgb(239, 242, 254)); */
+
+
+
+.header {
+    padding: 10px;
+    font-family: 'Tahoma', sans-serif;
+    width: 100vw;
+    background-color: #091621;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    color: #ffffff;
+    text-align: left;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+}
+
+.header h1 .ces {
+    color: #2e699c;
+}
+
+.header nav {
+    padding-top: 25px;
+    margin-right: 150px;
+    float: right;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0;
+    width: 700px;
+    /* background-image: linear-gradient(to right, rgb(91, 139, 244), rgb(239, 242, 254)); */
+}
+
+.center {
+    display: block;
+    /* margin-left: 580px;
+    margin-right: 520px; */
+    width: 100%;
+}
+
+/* .container-2 {
+    display: flex;
+    justify-content: center;
+}  */
+
+/* .container-2 article {
+    text-align: center;
+    /* width:400px;
+    height: 150px; */
+background-color: rgb(21, 21, 21);
+border: 4px #2e699c solid;
+/*border-radius: 0px 30px 30px 0px; */
+color: rgb(248, 248, 250);
+padding: 10px;
+margin: 30px;
+}
+
+*/ .container-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-3 article {
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(21, 21, 21);
+    border: 4px #2e699c solid;
+    /*border-radius: 0px 30px 30px 0px; */
+    color: rgb(248, 248, 250);
+    padding: 10px;
+    margin: 30px;
+}
